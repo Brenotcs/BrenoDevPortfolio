@@ -10,7 +10,7 @@ const projectsData = [
     {
         image: chozzen,
         gradient: 'linear-gradient(135deg, #7c6aff22, #ff6ab022)',
-        tags: ['Next.js', 'Stripe', 'PostgreSQL'],
+        tags: ['React.js', 'Tailwind CSS', 'Vite'],
         title: 'Chozzen - Landing Page',
         desc: 'Landing Page informativa para o projeto do DJ Chozzen, página com videos, animações personalizadas e redirecionamentos.',
         demo: '#',
@@ -19,7 +19,7 @@ const projectsData = [
     {
         image: prospes,
         gradient: 'linear-gradient(135deg, #6affcc22, #6aafff22)',
-        tags: ['React', 'D3.js', 'Python'],
+        tags: ['React.js', 'Tailwind CSS', 'Zapier'],
         title: 'Prospés - Landing Page',
         desc: 'Landing Page de alta conversão para produtos de podologia, com integração e envio de informações utilizando automações com Zapier.',
         demo: '#',
@@ -28,7 +28,7 @@ const projectsData = [
     {
         image: valedesalem,
         gradient: 'linear-gradient(135deg, #ff6ab022, #ffaa6a22)',
-        tags: ['Node.js', 'Socket.io', 'Redis'],
+        tags: ['React.js', 'Tailwind CSS', 'Vite'],
         title: 'Vale de Salém - Loja Virtual',
         desc: 'Loja virtual voltada para venda de produtos artesanais com redirecionamentos, conversão e vendas.',
         demo: '#',
@@ -37,7 +37,7 @@ const projectsData = [
     {
         image: miadvogada,
         gradient: 'linear-gradient(135deg, #6a6aff22, #aa6aff22)',
-        tags: ['Python', 'FastAPI', 'OpenAI'],
+        tags: ['React.js', 'Tailwind CSS', 'Supabase'],
         title: 'Milena Advogada - Site com CMS',
         desc: 'Site de advogada com foco em conversão de clientes, informativo e com CMS para gestão de conteúdo e suporte a arquivos.',
         demo: '#',
@@ -46,7 +46,7 @@ const projectsData = [
     {
         image: jcstudios,
         gradient: 'linear-gradient(135deg, #6affaa22, #6aff6a22)',
-        tags: ['React Native', 'Maps API', 'Firebase'],
+        tags: ['React.js', 'Tailwind CSS', 'Vite'],
         title: 'JC Studios - Landing Page',
         desc: 'Landing Page para Web Design e Cartunista.',
         demo: '#',
@@ -55,7 +55,7 @@ const projectsData = [
     {
         image: ifa,
         gradient: 'linear-gradient(135deg, #ffcc6a22, #ff6a6a22)',
-        tags: ['Go', 'JWT', 'Docker'],
+        tags: ['React.js', 'Tailwind CSS', 'Vite'],
         title: 'IFÁ na Bahia - Landing Page',
         desc: 'Landing Page para o projeto IFÁ na Bahia, integração com videos, imagens, e texto.',
         demo: '#',
