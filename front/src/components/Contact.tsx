@@ -48,7 +48,9 @@ export default function Contact() {
                 </a>
 
                 <a href="mailto:brenotcs@gmail.com" className="flex items-center gap-5 p-5 bg-card border border-border rounded-xl no-underline text-text transition-all duration-250 hover:border-accent hover:-translate-y-1 hover:shadow-[0_4px_20px_var(--color-glow)] group">
-                    <div className="w-[50px] h-[50px] bg-bg3 rounded-[12px] flex items-center justify-center text-[1.4rem] shrink-0 transition-colors duration-200 group-hover:bg-accent group-hover:text-white">✉️</div>
+                    <div className="w-[50px] h-[50px] bg-bg3 rounded-[12px] flex items-center justify-center text-[1.4rem] shrink-0 transition-colors duration-200 group-hover:bg-accent group-hover:text-white">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z" /><path d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" /></svg>
+                    </div>
                     <div>
                         <div className="font-mono text-[0.72rem] text-text3 uppercase tracking-[0.1em] mb-1">E-mail</div>
                         <div className="text-[0.95rem] font-semibold break-all">brenotcs@gmail.com</div>

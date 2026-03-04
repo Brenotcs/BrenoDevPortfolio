@@ -48,7 +48,7 @@ export default function Hero() {
                 </p>
 
                 <p className="max-w-[520px] text-[1.05rem] text-text2 leading-[1.7] mb-10">
-                    Construo experiências digitais rápidas, acessíveis e elegantes — de Landing Page ao E-commerce.
+                    Construo experiências digitais rápidas, acessíveis e elegantes, desde Landing Page ao E-commerce.
                     Apaixonado por código limpo, performance e design que resolve problemas reais.
                 </p>
 

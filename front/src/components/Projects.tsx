@@ -1,57 +1,63 @@
 import { useState, useEffect, useRef } from 'react';
+import jcstudios from '../assets/projetos/JCstudios.png';
+import prospes from '../assets/projetos/Prospes.png';
+import chozzen from '../assets/projetos/chozzen.png';
+import ifa from '../assets/projetos/ifa.png';
+import miadvogada from '../assets/projetos/miadvogada.png';
+import valedesalem from '../assets/projetos/valedesalem.png';
 
 const projectsData = [
     {
-        icon: '🛒',
+        image: chozzen,
         gradient: 'linear-gradient(135deg, #7c6aff22, #ff6ab022)',
         tags: ['Next.js', 'Stripe', 'PostgreSQL'],
-        title: 'ShopFlow',
-        desc: 'Plataforma de e-commerce completa com checkout integrado, gestão de inventário e painel admin em tempo real.',
+        title: 'Chozzen - Landing Page',
+        desc: 'Landing Page informativa para o projeto do DJ Chozzen, página com videos, animações personalizadas e redirecionamentos.',
         demo: '#',
         github: '#'
     },
     {
-        icon: '📊',
+        image: prospes,
         gradient: 'linear-gradient(135deg, #6affcc22, #6aafff22)',
         tags: ['React', 'D3.js', 'Python'],
-        title: 'DataViz Pro',
-        desc: 'Dashboard analítico com visualizações interativas de dados financeiros, exportação em PDF e alertas configuráveis.',
+        title: 'Prospés - Landing Page',
+        desc: 'Landing Page de alta conversão para produtos de podologia, com integração e envio de informações utilizando automações com Zapier.',
         demo: '#',
         github: '#'
     },
     {
-        icon: '💬',
+        image: valedesalem,
         gradient: 'linear-gradient(135deg, #ff6ab022, #ffaa6a22)',
         tags: ['Node.js', 'Socket.io', 'Redis'],
-        title: 'ChatSync',
-        desc: 'App de mensagens em tempo real com salas, threads, reações e suporte a arquivos. Suporta 10k conexões simultâneas.',
+        title: 'Vale de Salém - Loja Virtual',
+        desc: 'Loja virtual voltada para venda de produtos artesanais com redirecionamentos, conversão e vendas.',
         demo: '#',
         github: '#'
     },
     {
-        icon: '🤖',
+        image: miadvogada,
         gradient: 'linear-gradient(135deg, #6a6aff22, #aa6aff22)',
         tags: ['Python', 'FastAPI', 'OpenAI'],
-        title: 'AIssistant',
-        desc: 'Assistente de produtividade com IA que automatiza tarefas repetitivas, resume documentos e integra com Notion e Slack.',
+        title: 'Milena Advogada - Site com CMS',
+        desc: 'Site de advogada com foco em conversão de clientes, informativo e com CMS para gestão de conteúdo e suporte a arquivos.',
         demo: '#',
         github: '#'
     },
     {
-        icon: '🗺️',
+        image: jcstudios,
         gradient: 'linear-gradient(135deg, #6affaa22, #6aff6a22)',
         tags: ['React Native', 'Maps API', 'Firebase'],
-        title: 'RouteMaster',
-        desc: 'App mobile para planejamento de rotas com IA, sugestões de paradas personalizadas e compartilhamento de viagens.',
+        title: 'JC Studios - Landing Page',
+        desc: 'Landing Page para Web Design e Cartunista.',
         demo: '#',
         github: '#'
     },
     {
-        icon: '🔐',
+        image: ifa,
         gradient: 'linear-gradient(135deg, #ffcc6a22, #ff6a6a22)',
         tags: ['Go', 'JWT', 'Docker'],
-        title: 'AuthShield',
-        desc: 'Serviço de autenticação headless com OAuth2, MFA, gestão de sessões e auditoria completa de acessos.',
+        title: 'IFÁ na Bahia - Landing Page',
+        desc: 'Landing Page para o projeto IFÁ na Bahia, integração com videos, imagens, e texto.',
         demo: '#',
         github: '#'
     }
@@ -113,9 +119,9 @@ export default function Projects() {
                                 className={`bg-card border border-border rounded-2xl overflow-hidden transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[0_20px_50px_var(--color-shadow)] hover:border-accent flex-none`}
                                 style={{ width: `calc((100% - ${(visibleItems - 1) * 1.5}rem) / ${visibleItems})` }}
                             >
-                                <div className="w-full h-[200px] bg-bg3 relative overflow-hidden flex items-center justify-center text-[3rem]">
-                                    <div className="absolute inset-0" style={{ background: project.gradient }}></div>
-                                    <span className="relative z-10">{project.icon}</span>
+                                <div className="w-full bg-bg3 relative overflow-hidden flex items-center justify-center group/img">
+                                    <div className="absolute inset-0 opacity-50 z-10 transition-opacity duration-300 group-hover/img:opacity-0" style={{ background: project.gradient }}></div>
+                                    <img src={project.image} alt={project.title} className="w-full h-auto object-cover relative transition-transform duration-500 group-hover/img:scale-105 block" />
                                 </div>
                                 <div className="p-6">
                                     <div className="flex gap-1.5 flex-wrap mb-3">
