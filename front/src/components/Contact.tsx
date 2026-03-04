@@ -20,7 +20,7 @@ export default function Contact() {
                     </div>
                     <div>
                         <div className="font-mono text-[0.72rem] text-text3 uppercase tracking-[0.1em] mb-1">GitHub</div>
-                        <div className="text-[0.95rem] font-semibold break-all">github.com/alexferreira</div>
+                        <div className="text-[0.95rem] font-semibold break-all">github.com/Brenotcs</div>
                     </div>
                     <div className="ml-auto text-text3 text-[1.1rem] transition-all duration-200 group-hover:text-accent group-hover:translate-x-1">→</div>
                 </a>
@@ -31,7 +31,7 @@ export default function Contact() {
                     </div>
                     <div>
                         <div className="font-mono text-[0.72rem] text-text3 uppercase tracking-[0.1em] mb-1">LinkedIn</div>
-                        <div className="text-[0.95rem] font-semibold break-all">linkedin.com/in/alexf</div>
+                        <div className="text-[0.95rem] font-semibold break-all">linkedin.com/in/brenotcsouza</div>
                     </div>
                     <div className="ml-auto text-text3 text-[1.1rem] transition-all duration-200 group-hover:text-accent group-hover:translate-x-1">→</div>
                 </a>
@@ -40,7 +40,7 @@ export default function Contact() {
                     <div className="w-[50px] h-[50px] bg-bg3 rounded-[12px] flex items-center justify-center text-[1.4rem] shrink-0 transition-colors duration-200 group-hover:bg-accent group-hover:text-white">📱</div>
                     <div>
                         <div className="font-mono text-[0.72rem] text-text3 uppercase tracking-[0.1em] mb-1">Telefone</div>
-                        <div className="text-[0.95rem] font-semibold break-all">+55 (41) 99999-9999</div>
+                        <div className="text-[0.95rem] font-semibold break-all">+55 (71) 98296-4856</div>
                     </div>
                     <div className="ml-auto text-text3 text-[1.1rem] transition-all duration-200 group-hover:text-accent group-hover:translate-x-1">→</div>
                 </a>
@@ -49,7 +49,7 @@ export default function Contact() {
                     <div className="w-[50px] h-[50px] bg-bg3 rounded-[12px] flex items-center justify-center text-[1.4rem] shrink-0 transition-colors duration-200 group-hover:bg-accent group-hover:text-white">✉️</div>
                     <div>
                         <div className="font-mono text-[0.72rem] text-text3 uppercase tracking-[0.1em] mb-1">E-mail</div>
-                        <div className="text-[0.95rem] font-semibold break-all">alex@devcraft.io</div>
+                        <div className="text-[0.95rem] font-semibold break-all">brenotcs@gmail.com</div>
                     </div>
                     <div className="ml-auto text-text3 text-[1.1rem] transition-all duration-200 group-hover:text-accent group-hover:translate-x-1">→</div>
                 </a>

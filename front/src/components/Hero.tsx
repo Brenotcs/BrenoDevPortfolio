@@ -40,7 +40,7 @@ export default function Hero() {
                 </div>
 
                 <h1 className="text-[clamp(3rem,8vw,7rem)] font-extrabold leading-[0.95] tracking-[-0.03em] mb-4">
-                    Alex<br /><span className="text-gradient">Ferreira</span>
+                    Breno<br /><span className="text-gradient">Souza</span>
                 </h1>
 
                 <p className="font-mono text-[clamp(1rem,2vw,1.3rem)] text-text2 mb-8">
@@ -48,7 +48,7 @@ export default function Hero() {
                 </p>
 
                 <p className="max-w-[520px] text-[1.05rem] text-text2 leading-[1.7] mb-10">
-                    Construo experiências digitais rápidas, acessíveis e elegantes — da API ao pixel.
+                    Construo experiências digitais rápidas, acessíveis e elegantes — de Landing Page ao E-commerce.
                     Apaixonado por código limpo, performance e design que resolve problemas reais.
                 </p>
 

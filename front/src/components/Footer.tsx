@@ -2,10 +2,10 @@ export default function Footer() {
     return (
         <footer className="border-t border-border py-10 px-6 md:px-16 flex flex-col md:flex-row items-center justify-between gap-4 bg-bg2 transition-colors duration-500">
             <div className="font-mono font-bold text-accent text-[1rem]">
-                &lt;devcraft /&gt;
+                &lt;brenoDev /&gt;
             </div>
             <div className="font-mono text-[0.8rem] text-text3 text-center md:text-left">
-                © 2026 Alex Ferreira · Feito com ☕ e muito TypeScript
+                © 2026 Breno Souza · Todos os direitos reservados
             </div>
             <div className="flex gap-4">
                 <a href="https://github.com/alexferreira" target="_blank" rel="noreferrer" className="w-[34px] h-[34px] bg-surface border border-border rounded-lg flex items-center justify-center text-[0.9rem] text-text2 no-underline transition-all duration-200 hover:bg-accent hover:border-accent hover:text-white" title="GitHub">
