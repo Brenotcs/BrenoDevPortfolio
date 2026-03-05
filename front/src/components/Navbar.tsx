@@ -2,7 +2,7 @@ import ThemeToggle from './ThemeToggle';
 
 export default function Navbar() {
     return (
-        <nav className="fixed top-0 left-0 right-0 z-[100] flex justify-between items-center px-6 md:px-16 py-5 bg-bg/80 border-b border-border backdrop-blur-md transition-all duration-500">
+        <nav className="absolute md:fixed top-0 left-0 right-0 z-[100] flex justify-between items-center px-6 md:px-16 py-5 bg-bg/80 border-b border-border backdrop-blur-md transition-all duration-500">
             <a href="#hero" className="font-mono text-[1.1rem] font-bold text-accent tracking-tighter no-underline cursor-pointer">
                 &lt;<span className="text-text">brenoDev</span>/&gt;
             </a>
