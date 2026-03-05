@@ -146,3 +146,60 @@ body::before {
   opacity: 1;
   transform: translateY(0);
 }
+
+/* Stars Effect (Dark Mode Only) */
+.stars-container {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  z-index: 1;
+  pointer-events: none;
+}
+
+:root[data-theme="dark"] .stars-container,
+.dark .stars-container {
+  display: block;
+}
+
+.star {
+  position: absolute;
+  height: 2px;
+  width: 2px;
+  border-radius: 9999px;
+  background-color: var(--accent3);
+  box-shadow: 0 0 6px 1px var(--accent3);
+  opacity: 0;
+  animation-name: meteor;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.star::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 70px;
+  height: 1px;
+  background: linear-gradient(90deg, var(--accent3), transparent);
+}
+
+@keyframes meteor {
+  0% {
+    transform: rotate(315deg) translateX(0);
+    opacity: 1;
+  }
+
+  70% {
+    opacity: 1;
+  }
+
+  100% {
+    transform: rotate(315deg) translateX(-1000px);
+    opacity: 0;
+  }
+}

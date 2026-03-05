@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import FallingStars from './FallingStars';
 
 export default function Hero() {
     const phrases = ['Full Stack Developer', 'UI/UX Enthusiast', 'Open Source Lover', 'Problem Solver'];
@@ -30,7 +31,8 @@ export default function Hero() {
     };
 
     return (
-        <div id="hero" className="min-h-screen flex flex-col justify-center pt-32 max-w-full relative px-6 md:px-0">
+        <div id="hero" className="min-h-screen flex flex-col justify-center pt-32 max-w-full relative px-6 md:px-0 overflow-hidden">
+            <FallingStars />
             <div className="hero-glow"></div>
             <div className="hero-glow2"></div>
 
