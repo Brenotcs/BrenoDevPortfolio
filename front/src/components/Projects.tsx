@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
-import jcstudios from '../assets/projetos/JCstudios.png';
+import decreina from '../assets/projetos/decreina.png';
 import prospes from '../assets/projetos/Prospes.png';
 import chozzen from '../assets/projetos/chozzen.png';
 import ifa from '../assets/projetos/ifa.png';
@@ -7,6 +7,15 @@ import miadvogada from '../assets/projetos/miadvogada.png';
 import valedesalem from '../assets/projetos/valedesalem.png';
 
 const projectsData = [
+     {
+        image: decreina,
+        gradient: 'linear-gradient(135deg, #6affaa22, #6aff6a22)',
+        tags: ['React.js', 'TypeScript', 'Shopify'],
+        title: 'Decreina - Headless Commerce',
+        desc: 'Loja virtual de alta conversão para produtos de podologia, carrinho integrado e checkout via Shopify.',
+        demo: '#',
+        github: '#'
+    },
     {
         image: chozzen,
         gradient: 'linear-gradient(135deg, #7c6aff22, #ff6ab022)',
@@ -40,15 +49,6 @@ const projectsData = [
         tags: ['React.js', 'Tailwind CSS', 'Supabase'],
         title: 'Milena Advogada - Site com CMS',
         desc: 'Site de advogada com foco em conversão de clientes, informativo e com CMS para gestão de conteúdo e suporte a arquivos.',
-        demo: '#',
-        github: '#'
-    },
-    {
-        image: jcstudios,
-        gradient: 'linear-gradient(135deg, #6affaa22, #6aff6a22)',
-        tags: ['React.js', 'Tailwind CSS', 'Vite'],
-        title: 'JC Studios - Landing Page',
-        desc: 'Landing Page para Web Design e Cartunista.',
         demo: '#',
         github: '#'
     },
